@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<title>
+    Admin Login
+</title>
+<style>
+    *{
+        margin:0;
+        padding:0;
+        background-origin: padding-box;
+    }
+    h1{
+        text-align: center;
+        color:white
+    }
+    body{
+        background-image: url('login.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        color:rgb(0, 0, 0)
+    }
+    .login{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 12%;
+        height:auto;
+        padding: 15px;
+        padding-top: 50px;;
+        width:300px;
+        margin-left: 40%;
+        margin-top: 10%;
+        color:rgb(3, 4, 4);
+        border-radius: 10px;
+    }
+    .form{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        padding:15px;
+        font-size: 24px;;
+    }
+    .form label{
+        
+        background-color: rgb(137, 188, 137);
+    }
+    .login button{
+        border-radius: 10px;
+        background-color: violet;
+        font-size: 15px;
+        padding:5px;
+        cursor: pointer;
+}
+.login button:hover{
+    background-color:aliceblue;
+    color:black;
+}
+    button{
+        color: rgb(2, 2, 2);
+        border-radius: 10px;
+        background-color:transparent ;
+        margin:0;
+        font-size: 15px;
+        padding:15px;
+        cursor: pointer;
+}
+button:hover{
+    border:2px white solid;
+    color:white;
+    background-color: black;
+}
+.login input{
+    padding:10px;
+    border-width: 3px;
+    width:300px;
+    border-radius: 10px;
+}
+</style>
+<body>
+    <div class="heading">
+        <h1>
+            WELCOME ADMIN... 
+        </h1>
+        <a href="homepage.html">
+        <button>BACK</button></a> PREVIEW PAGE HERE
+    </div>
+    <div class="login">
+        <div class="form">
+        <label>Username:</label>
+        <input type="text" required placeholder="Jonny45">
+        </div>
+        <div class="form">
+        <label>Password:</label>
+        <input type="password" required placeholder="Jonny@156">
+        </div>
+        <a href="admindashbord.html">
+            <button>
+                SUBMIT
+            </button></a>
+        </a>
+    </div>
+</body>
+</html>

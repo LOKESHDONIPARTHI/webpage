@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<title>
+    Admin Portal
+</title>
+<style>
+    *{
+        margin:0;
+        padding:0;
+        background-origin: padding-box;
+    }
+    body{
+        background-image:url('dashboard.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+.navbar{
+    padding:inline;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    background-image: url(nav.jpg);
+}
+.navbar-right{
+    color:purple;
+    font-size: 20px;;
+    padding-left: 40%;
+    display:flex;
+    align-items: center;
+}
+.navbar-right a{
+    padding:15px;
+    
+}
+.navbar-right a:hover{
+    color:black;
+    border:2px white solid;
+}
+.navbar-left{
+    padding: 10px;
+    text-align: center;
+ 
+}
+button{
+    padding:5px;
+    cursor: pointer;
+    background-color: transparent;
+}
+button:hover{
+    border:2px white solid;
+}
+</style>
+<body>
+    <div class="navbar">
+        <div class="navbar-left">
+            <img src="dashboard.jpg" alt="logo" width="70px" height="70px">
+        <P>CAKES PARADISE</P>
+        <a href="admin.html">
+            <button>
+                BACK
+            </button>
+        </a>
+        </div>
+        <div class="navbar-right">
+            <a href="" style="text-decoration: none;">HOME</a>
+            <a href="" style="text-decoration: none">CAKES</a>
+            <a href="" style="text-decoration: none">SWEETS</a>
+            <a href="" style="text-decoration: none">HOT ITEMS</a>
+            <a href="about.html" style="text-decoration: none">ABOUT</a>
+        </div>
+    </div>
+</body>
+</html>

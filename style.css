@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+body{
+    background-color:black;
+    margin:0;
+    color:white;
+
+}
+.nav-bar{
+    padding:inline;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+}
+.nav-bar-left{
+    display:flex;
+   color:rgb(39, 118, 237);
+}
+.heading{
+    color:red;
+}
+.navbar-right{
+    display:flex;
+    flex-direction:center;
+    align-items: center;
+    text-decoration:none;
+}
+.navbar-right a:hover{
+    color:blackō
+}
+.navbar-right a{
+    text-decoration: none;
+    margin:20px;
+    font-size:25px;
+}
+.home{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+.homeleft{
+    font-family: "Oswald", sans-serif;
+    width:50vw;
+    padding-top:10%;
+    padding-left:25px;
+    text-align:right;
+}
+.p1{
+    font-family: "Quicksand", sans-serif;
+}
+.homeright{
+    width:50vw;
+}
+.mypic {
+    width: 350px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 65%;
+    top: 125px; /* Set initial top position */
+    transform: translateX(-50%);
+    transition: top 1s ease; /* Transition for top position */
+    z-index: 1; /* Ensures .mypic is in front */
+}
+
+.mypic:hover {
+    top: 10px; /* Moves up when hovered */
+}
+.bg {
+    display: flex;
+    align-items: flex-end; /* Aligns content to the bottom */
+    width: 300px;
+    height: 400px;
+    padding-left: 50px;
+    position: relative;
+    left: 0px; /* Initial left position */
+    transition: left 1s ease; /* Smooth left transition */
+}
+
+.bg:hover {
+    left: -20px; /* Moves left by 20px on hover */
+}
+.servicecard{
+    padding-top:50px;
+    text-align:center;
+}
+.ser-heading{
+    font-family: "Oswald", sans-serif;
+    text-align:center;
+    font-style:italic;
+}
+.ser-container{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    
+}
+.services{
+    border:3px solid rgb(25, 143, 247);
+    padding:10px;
+    font-size:25px;
+    margin:5px;
+    text-align:center;
+    width:400px;
+}
+.p2{
+    font-family: "Quicksand", sans-serif;
+}
+.h3{
+    font-family: "Oswald", sans-serif;
+    font-style:italic;
+}
+.socialaccs{
+  display:flex;
+  flex-direction:row;
+  justify-content: center;
+  align-items:center;
+}
+.contact{
+    text-align:center;
+    padding-top:10px;
+}
